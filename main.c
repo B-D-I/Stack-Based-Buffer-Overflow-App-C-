@@ -9,6 +9,8 @@ int main() {
 
     gets(bookName);
 
+    //mitigation: fgets(bookName, 69, stdin);
+
     printf("\nThis book is unavailable: %s " , bookName);
     printf("\n\n");
     return 0;
